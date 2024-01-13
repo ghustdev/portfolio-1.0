@@ -336,6 +336,35 @@ main{
     animation: animateUser 4s linear infinite;
 }
 
+.back-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid var(--border);
+    color: var(--topline-color);
+    border-radius: 10px;
+    transition: all .2s ease-in;;
+    display: none;
+}
+
+.back-top a{
+    text-align: center;
+    padding: 10px;
+    width: 40px;
+    height: 100%;
+}
+
+.back-top:hover{
+    border: 2px solid var(--buttons-bg-hover);
+    background: var(--buttons-bg-hover);
+}
+
+
+
 @keyframes animateUser{
     50%{
         right: -20px;
@@ -389,6 +418,20 @@ main{
 
 .box-projects h1{
     padding-bottom: 20px;
+}
+
+/* -------------------- */
+/* SCROLL */
+
+.hidden{
+    transition: all 1s ease-in-out;
+    filter: blur(15px);
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
 }
 
 /* ---------------------------------------- */

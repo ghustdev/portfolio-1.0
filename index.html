@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portfolio | Gustavo Cardoso</title>
-    <link rel="icon" href="./img/fundo_logo.png">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,8 +14,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="scripts.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="./static/img/fundo_logo.png">
+    <script src="./static/scripts.js" defer></script>
+    <link rel="stylesheet" href="./static/style.css">
 </head>
 
 <body>
@@ -84,13 +87,13 @@
             </div>
             <div class="cols cols1">
                 <div class="imgbox">
-                    <img id="splash" src="img/fundo.png" alt="">
-                    <img src="img/normal-PhotoRoom.png-PhotoRoom.png" alt="">
+                    <img id="splash" src="./static/img/fundo.png" alt="">
+                    <img src="./static/img/normal-PhotoRoom.png-PhotoRoom.png" alt="">
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="projects main-section">
+        <section id="projects" class="projects main-section hidden">
             <div class="box-projects">
                 <h1>My Projects</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat, voluptatibus dolorem
@@ -99,17 +102,14 @@
             </div>
         </section>
 
-        <section id="about" class="about main-section">
+        <section id="about" class="about main-section hidden">
             <div class="box-about">
                 <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat, voluptatibus dolorem
-                    consequuntur culpa fuga? Vel porro magni aliquid odit quaerat, obcaecati laboriosam quidem commodi
-                    incidunt excepturi tempora molestias sunt.</p>
             </div>
-            <img src="img/Captura de tela 2023-12-20 201959.png" alt="">
+            <img src="./static/img/Captura de tela 2023-12-20 201959.png" alt="">
         </section>
 
-        <section id="skills" class="skills main-section">
+        <section id="skills" class="skills main-section hidden">
             <div class="box-skills">
                 <h1>My Skills</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat, voluptatibus dolorem
@@ -118,7 +118,7 @@
             </div>
         </section>
 
-        <section id="contact" class="contact main-section">
+        <section id="contact" class="contact main-section hidden">
             <div class="box-contact">
                 <h1>Contact Me</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat, voluptatibus dolorem
@@ -126,12 +126,17 @@
                     incidunt excepturi tempora molestias sunt.</p>
             </div>
         </section>
+
+        <div class="back-top">
+            <a href="#"><i class="fa-solid fa-arrow-turn-up"></i></a>
+        </div>
+
     </main>
 
     <footer>
         <div class="footer-section">
             <div class="container-logo">
-                <img class="logo_footer" src="img/fundo_logo.png" alt="Logo">
+                <img class="logo_footer" src="./static/img/fundo_logo.png" alt="Logo">
                 <p>Gustavo <span class="name">Cardoso</span></p>
             </div>
             <div class="container-content">
