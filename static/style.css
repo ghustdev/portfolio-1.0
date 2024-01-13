@@ -429,9 +429,19 @@ main{
     opacity: 0;
 }
 
+.hidden h1{
+    transform: translateX(-100%);
+    transition: all .5s ease-in-out;
+}
+
 .show{
     opacity: 1;
+    transform: translateX(0);
     filter: blur(0);
+}
+
+.show h1{
+    transform: translateX(0);
 }
 
 /* ---------------------------------------- */
