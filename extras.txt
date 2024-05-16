@@ -1,9 +1,0 @@
-Colors:
-
-#CBB26A
-#000000
-#d8c690
-#be9e44
-#1a1a1a
-#e5d9b6
-#f3f3f3
