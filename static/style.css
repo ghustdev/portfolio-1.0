@@ -424,7 +424,7 @@ main{
 /* SCROLL */
 
 .hidden{
-    transition: all 1.5s ease-in-out;
+    transition: all 1.2s ease-in-out;
     filter: blur(15px);
     opacity: 0;
 }
