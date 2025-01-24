@@ -119,7 +119,7 @@ header {
 }
 
 .links a{
-    background: linear-gradient(to top right, #f3f3f3, #b17a50,#d9c1aa,#b17a50);
+    background: linear-gradient(to top right, #f3f3f3, #b17a50,#b17a50,#d9c1aa);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
