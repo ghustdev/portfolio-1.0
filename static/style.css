@@ -10,7 +10,7 @@
 }
 
 * ::-webkit-scrollbar-thumb {
-    background-color: #CBB26A;
+    background-color: #c19573;
     border-radius: 10px;
 }
 
@@ -21,7 +21,7 @@
 /*------ Settings ------*/
 .container-box {
     padding-left: 20px;
-    --color: #CBB26A;
+    --color: #b17a50;
     --size: 30px;
     display: flex;
     justify-content: center;
@@ -75,40 +75,22 @@
 }
 
 :root {
-    --body-bg-1: #000000;
-    --body-bg-2: #1a1a1a;
-    --body-bg-3: #292929;
-    --body-bg-4: #494232;
-    --link-hover: #f3f3f3;
+    --body-bg-1:#d9c1aa;
+    --body-bg-2: #d9c1aa;
+    --body-bg-3: #d9c1aa;
+    --body-bg-4: #d9c1aa;
+    --link-hover: #b17a50;
     --border: #e5d9b6;
     --scroll-bg: #353535;
-    --main-color: #f3f3f3; 
-    --footer-color: #f3f3f3; 
-    --topline-color: #f3f3f3;
-    --coder-color: #f3f3f3;
+    --main-color: #b17a50; 
+    --footer-color: #b17a50; 
+    --topline-color: #b17a50;
+    --coder-color: #b17a50;
     --ball-1: #000000;
     --ball-2: #585858;
     --ball-3: #e5d9b6;
     --footer-bg: #1a1a1a;
-    --buttons-bg-hover: #be9e44;
-}
-
-.dark-mode:root {
-    --body-bg-1: #ffffff;
-    --body-bg-2: #f3f3f3;
-    --body-bg-3: #cfcfcfff;
-    --body-bg-4: #e5d9b6;
-    --link-hover: #1a1a1a;
-    --border: #be9e44;
-    --scroll-bg: #f3f3f3;
-    --main-color: #2d2d2d;
-    --footer-color: #2d2d2d;
-    --topline-color: #2d2d2d;
-    --coder-color: #2d2d2d;
-    --ball-1: #e8e8e8;
-    --ball-2: #6c6c6c;
-    --ball-3: #1a1a1a;
-    --footer-bg:#f3f3f3;
+    --buttons-bg-hover: #b17a50;
 }
 
 /* --------------------------------------------------- */
@@ -172,7 +154,7 @@ header {
 .logo p {
     position: relative;
     font-size: 25pt;
-    color: #be9e44;
+    color: #b17a50;
 }
 
 .name{
@@ -190,7 +172,7 @@ header {
 .navbar a {
     position: relative;
     font-size: 18pt;
-    color: #CBB26A;
+    color: #b17a50;
 }
 
 .navbar a::before {
@@ -206,7 +188,7 @@ header {
 
 .navbar a:hover::before {
     width: 100%;
-    border-color: #CBB26A;
+    border-color: #b17a50;
 }
 
 .links {
@@ -220,7 +202,7 @@ header {
 }
 
 .links a{
-    background: linear-gradient(to top right, #f3f3f3, #be9e44,#CBB26A,#d8c690);
+    background: linear-gradient(to top right, #f3f3f3, #b17a50,#b17a50,#d8c690);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
