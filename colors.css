@@ -1,23 +1,18 @@
 :root {
---token-2dee5c4a-ec61-47f9-818b-fddca6a7763b: rgb(34, 34, 34);
---token-283586da-b299-416b-b66e-3e21fccb9623: rgb(78, 78, 78);
---token-35f32bd9-d6f4-470d-9722-fd8fdc1e08c0: rgb(246, 245, 244);
---token-936da90c-a4d1-4f28-9539-9de5f02d7b38: rgb(0, 0, 0);
---token-b30901b5-e529-4135-a31e-1e4690e0a7c8: hsl(0, 0%, 100%);
---token-f59958f7-2c9a-4bd5-8a2d-7508cf3ba32d: rgb(255, 255, 255);
---token-aaeb7a36-4ca2-412f-8051-24537bf9d42f: rgb(204, 204, 204);
---token-cd23f77c-7af1-4f5e-8426-97d1daff7b50: rgb(230, 230, 230);
 --token-5ac68c20-3c7f-4a25-96b2-45ac93994a64: #EBEBEB;
 --token-6937db74-f656-4a77-801a-03dcd82b140b: #0F0F1A;
---token-54b3878d-f037-4fbf-a186-9ea171adca9d: rgb(227, 225, 225);
---token-c6f1d332-78e5-42cc-86e3-cc75bfeb481e: rgb(255, 255, 255);
---token-98abb714-a8be-4321-a57c-bae3aa09f895: rgb(0, 0, 0);
---dourado-escuro: #daa520;
---dourado-claro: #ffd700;
 --a:#CBB26A;
 --a:#d8c690;
 --a:#be9e44;
 --a:#1a1a1a;
---a:#e5d9b6;
-
+/* ------------------ */
+--back:#d9c1aa;
+--letter: #b17a50;
+--letter: #866042;
+--letter: #412f26;
+--letter: #9e8b79;
+--back: #e5d9b6;
+--letter: #262920;
+--letter: #a9acad;
+--letter: #c2b78b;
 }

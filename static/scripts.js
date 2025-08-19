@@ -1,15 +1,10 @@
 const html = document.querySelector('html');
-const checkbox = document.getElementById('checkbox');
 
-
-checkbox.addEventListener('change', function() {
-    html.classList.toggle('dark-mode')
-})
 
 //* ----- Type.js -----
 
 var typeEffect = new Typed(".multText", {
-    strings: ["coder", "dev", "creator",'UX'],
+    strings: ["Maquiadora", "Profissional"],
     loop: true,
     typeSpeed: 100,
     backSpeed: 80,
